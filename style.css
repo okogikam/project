@@ -1,0 +1,54 @@
+/* logo  */
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}
+.logo img {
+  max-width: 100%;
+}
+#kontak-kami .logo {
+  width: 200px;
+  height: 200px;
+}
+
+/* display      */
+body {
+  padding-top: 0px;
+}
+.d-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.d-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.header {
+  position: relative;
+}
+.nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: grid;
+  z-index: 1;
+  text-align: center;
+  /* background-color: cadetblue; */
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.nav .logo {
+  margin: auto;
+}
+/* card  */
+.card-img img {
+  max-width: 100%;
+}

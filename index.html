@@ -11,10 +11,304 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="carosel.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="grid">
-      <div class="main"></div>
+      <div class="main">
+        <div class="header">
+          <div class="nav">
+            <div class="logo">
+              <img src="./src/img/logo.jpeg" alt="" />
+            </div>
+            <div class="menu">
+              <a href="#" class="link-menu">Beranda</a>
+              <a href="#tentang-kami" class="link-menu">Tentang Kami</a>
+              <a href="#produk" class="link-menu">Produk</a>
+              <a href="#kontak-kami" class="link-menu">Kontak Kami</a>
+            </div>
+          </div>
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carosel-img">
+                  <img src="./src/img/photo-1.jpeg" alt="" />
+                </div>
+
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Example headline.</h1>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide of the carousel.
+                    </p>
+                    <p>
+                      <a class="btn btn-lg btn-primary" href="#"
+                        >Sign up today</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carosel-img">
+                  <img src="./src/img/photo-2.jpeg" alt="" />
+                </div>
+
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide of the carousel.
+                    </p>
+                    <p>
+                      <a class="btn btn-lg btn-primary" href="#">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carosel-img">
+                  <img src="./src/img/photo-3.jpeg" alt="" />
+                </div>
+
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>
+                      Some representative placeholder content for the third
+                      slide of this carousel.
+                    </p>
+                    <p>
+                      <a class="btn btn-lg btn-primary" href="#"
+                        >Browse gallery</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <section id="tentang-kami">
+          <h3 class="title">tentang kami</h3>
+          <p>
+            <strong>CV. MIMIKRI INDONESIA LESTARI </strong>Adalah perusahaan
+            yang bergerak dibidang jasa dan penjualan alat peralatan System
+            Keamanan, Alat peralatan pendukung perkantoran dan kebersihan
+            bangunan. Sejak resmi didirikan pada tahun 2019, telah melayani
+            beberapa kantor instansi Pemerintahan, BUMN, BUMD dan Perusahaan
+            Swasta yang ada di Banjarmasin dan Sekitarnya.
+          </p>
+        </section>
+        <section id="produk">
+          <h3 class="title">
+            Beberapa Jenis Produk dan Layanan kami sediakan:
+          </h3>
+          <div class="d-grid-4">
+            <div class="card">
+              <div class="card-body">Palang Pintu Otomatis</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Pagar Layang Otomatis</div>
+            </div>
+            <div class="card">
+              <div class="card-body">CCTV</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Akses Kunci Otomatis</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Sound Sistem</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Mesin Absensi</div>
+            </div>
+            <div class="card">
+              <div class="card-body">APAR</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Akses Kunci Otomatis</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Pengharum Ruangan Otomatis</div>
+            </div>
+            <div class="card">
+              <div class="card-body">PABX</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Alat Tulis Kantor</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Alarm</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Buku Tamu Digital</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Pembersihan Umum Bangunan Dan Area</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Poles Lantai</div>
+            </div>
+            <div class="card">
+              <div class="card-body">Alat Peralatan Smart Home</div>
+            </div>
+          </div>
+        </section>
+        <section id="costomer-exp">
+          <h3 class="title">costumer experience</h3>
+          <div class="d-grid-4">
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/jasa-raharja.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img
+                  src="./src/img/PDAM-Intan-Banjar.png
+                "
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/Samator-Gas.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/toyota.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/aston-banua.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/banjarmasin.png" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/dana-pensiun.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/disbudpar.jpg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./src/img/diskominfotik.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="kontak-kami" class="bg-black">
+          <h3 class="title">kontak kami</h3>
+          <div class="d-grid-2">
+            <div class="logo">
+              <img src="./src/img/logo.jpeg" alt="" />
+            </div>
+            <div class="contak">
+              <p>
+                Handphone:
+                <a
+                  class="eael-creative-button eael-creative-button--winona"
+                  href="tel:+628115555751"
+                  data-text="0811 5555 751"
+                >
+                  0811 5555 751
+                </a>
+              </p>
+              <p>
+                Telepon :
+                <a
+                  class="eael-creative-button eael-creative-button--winona"
+                  href="tel:+625114247289"
+                  data-text="0851 1424 7289"
+                >
+                  0851 1424 7289
+                </a>
+              </p>
+              <p>
+                WhatsApp :
+                <a
+                  class="eael-creative-button eael-creative-button--winona"
+                  href="https://wa.me/628115555751"
+                  data-text="0811 5555 751"
+                >
+                  0811 5555 751
+                </a>
+              </p>
+              <p>
+                Email :
+                <a
+                  class="eael-creative-button eael-creative-button--winona"
+                  href="mailto:official@cvmil.co.id"
+                  data-text="official@cvmil.co.id"
+                >
+                  official@cvmil.co.id
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
       <div class="aside"></div>
     </div>
     <script
