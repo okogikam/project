@@ -13,6 +13,14 @@
     />
     <link rel="stylesheet" href="carosel.css" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <div class="grid">
@@ -20,6 +28,9 @@
         <div class="header">
           <div class="nav">
             <div class="logo">
+              <button class="btn btn_menu">
+                <ion-icon name="apps"></ion-icon>
+              </button>
               <img src="./src/img/logo copy.png" alt="" />
             </div>
             <div class="menu">
@@ -162,55 +173,115 @@
           <h4>Beberapa Jenis Produk dan Layanan kami sediakan:</h4>
           <div class="d-grid-4">
             <div class="card">
-              <div class="card-body">Palang Pintu Otomatis</div>
+              <a href="#">
+                <div class="card-body">Palang Pintu Otomatis</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Pagar Layang Otomatis</div>
+              <a href="#">
+                <div class="card-body">Pagar Layang Otomatis</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">CCTV</div>
+              <a href="#">
+                <div class="card-body">CCTV</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Akses Kunci Otomatis</div>
+              <a href="#">
+                <div class="card-body">Akses Kunci Otomatis</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Sound Sistem</div>
+              <a href="#">
+                <div class="card-body">Sound Sistem</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Mesin Absensi</div>
+              <a href="#">
+                <div class="card-body">Mesin Absensi</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">APAR</div>
+              <a href="#">
+                <div class="card-body">APAR</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Akses Kunci Otomatis</div>
+              <a href="#">
+                <div class="card-body">Akses Kunci Otomatis</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Pengharum Ruangan Otomatis</div>
+              <a href="#">
+                <div class="card-body">Pengharum Ruangan Otomatis</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">PABX</div>
+              <a href="#">
+                <div class="card-body">PABX</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Alat Tulis Kantor</div>
+              <a href="#">
+                <div class="card-body">Alat Tulis Kantor</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Alarm</div>
+              <a href="#">
+                <div class="card-body">Alarm</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Buku Tamu Digital</div>
+              <a href="#">
+                <div class="card-body">Buku Tamu Digital</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Pembersihan Umum Bangunan Dan Area</div>
+              <a href="#">
+                <div class="card-body">Pembersihan Umum Bangunan Dan Area</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Poles Lantai</div>
+              <a href="#">
+                <div class="card-body">Poles Lantai</div>
+              </a>
             </div>
             <div class="card">
-              <div class="card-body">Alat Peralatan Smart Home</div>
+              <a href="#">
+                <div class="card-body">Alat Peralatan Smart Home</div>
+              </a>
             </div>
           </div>
         </section>
+        <div class="full">
+          <section id="kontak">
+            <p>
+              Silahkan konsultasi terlebih dahulu untuk mendapatkan harga yang
+              pas sesuai spesifikasi dan keinginan anda
+            </p>
+            <div class="d-grid-2">
+              <p>
+                <a
+                  class="eael-creative-button wa"
+                  href="https://wa.me/628115555751"
+                  data-text="0811 5555 751"
+                >
+                  <ion-icon name="logo-whatsapp"></ion-icon> WhatsApp
+                </a>
+              </p>
+              <p>
+                <a
+                  class="eael-creative-button email"
+                  href="mailto:official@cvmil.co.id"
+                  data-text="official@cvmil.co.id"
+                >
+                  <ion-icon name="mail"></ion-icon> Email
+                </a>
+              </p>
+            </div>
+          </section>
+        </div>
         <section id="costomer-exp">
           <h3 class="title"><b></b><span>costomer experience</span><b></b></h3>
           <div class="d-grid-4">
@@ -274,43 +345,39 @@
               </div>
               <div class="kontak">
                 <p>
-                  Handphone:
                   <a
-                    class="eael-creative-button eael-creative-button--winona"
+                    class="eael-creative-button hp"
                     href="tel:+628115555751"
                     data-text="0811 5555 751"
                   >
-                    0811 5555 751
+                    <ion-icon name="phone-portrait"></ion-icon> Handphone
                   </a>
                 </p>
                 <p>
-                  Telepon :
                   <a
-                    class="eael-creative-button eael-creative-button--winona"
+                    class="eael-creative-button tel"
                     href="tel:+625114247289"
                     data-text="0851 1424 7289"
                   >
-                    0851 1424 7289
+                    <ion-icon name="call"></ion-icon> Telepon
                   </a>
                 </p>
                 <p>
-                  WhatsApp :
                   <a
-                    class="eael-creative-button eael-creative-button--winona"
+                    class="eael-creative-button wa"
                     href="https://wa.me/628115555751"
                     data-text="0811 5555 751"
                   >
-                    0811 5555 751
+                    <ion-icon name="logo-whatsapp"></ion-icon> WhatsApp
                   </a>
                 </p>
                 <p>
-                  Email :
                   <a
-                    class="eael-creative-button eael-creative-button--winona"
+                    class="eael-creative-button email"
                     href="mailto:official@cvmil.co.id"
                     data-text="official@cvmil.co.id"
                   >
-                    official@cvmil.co.id
+                    <ion-icon name="mail"></ion-icon> Email
                   </a>
                 </p>
               </div>
@@ -318,18 +385,28 @@
           </section>
         </div>
       </div>
-      <div class="aside"></div>
+      <div class="aside">
+        <div class="menu">
+          <a href="#" class="link-menu">Beranda</a>
+          <a href="#tentang-kami" class="link-menu">Tentang Kami</a>
+          <a href="#produk" class="link-menu">Produk</a>
+          <a href="#kontak-kami" class="link-menu">Kontak Kami</a>
+        </div>
+        <button class="btn btn-close" name="close"></button>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
     <script>
+      let btnClose = document.querySelector(".btn-close");
+      let nav = document.querySelector(".nav").scrollHeight + 50;
       window.onscroll = function () {
         myFunction();
       };
-      let nav = document.querySelector(".nav").scrollHeight + 50;
       console.log(nav);
       function myFunction() {
         if (
@@ -341,6 +418,33 @@
           document.querySelector(".nav").classList.remove("fixed");
         }
       }
+      let aside = document.querySelector(".aside");
+      btnClose.addEventListener("click", () => {
+        aside.classList.toggle("show");
+      });
+
+      let btnMenu = document.querySelector(".btn_menu");
+      btnMenu.addEventListener("click", () => {
+        // let aside = document.querySelector(".aside");
+        aside.classList.add("show");
+      });
+
+      aside.addEventListener("click", () => {
+        // let aside = document.querySelector(".aside");
+        aside.classList.toggle("show");
+      });
+      let btnKontak = document.querySelectorAll(".eael-creative-button");
+      for (let x = 0; x < btnKontak.length; x++) {
+        // console.log(btnKontak[x]);
+        btnKontak[x].addEventListener("mouseover", () => {
+          console.log(this.dataset.text);
+        });
+        btnKontak[x].addEventListener("mouseout", () => {
+          console.log("mouseout");
+        });
+      }
+      console.log(btnKontak.length);
+      console.log(btnKontak[0].dataset.text);
     </script>
   </body>
 </html>
