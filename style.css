@@ -7,7 +7,8 @@
   /* height: 80px; */
 }
 .card a,
-.card a:active {
+.card a:active,
+.card a:visited {
   text-decoration: none;
   color: white;
 }
