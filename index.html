@@ -20,7 +20,7 @@
         <div class="header">
           <div class="nav">
             <div class="logo">
-              <img src="./src/img/logo.jpeg" alt="" />
+              <img src="./src/img/logo copy.png" alt="" />
             </div>
             <div class="menu">
               <a href="#" class="link-menu">Beranda</a>
@@ -139,20 +139,27 @@
           </div>
         </div>
         <section id="tentang-kami">
-          <h3 class="title">tentang kami</h3>
-          <p>
-            <strong>CV. MIMIKRI INDONESIA LESTARI </strong>Adalah perusahaan
-            yang bergerak dibidang jasa dan penjualan alat peralatan System
-            Keamanan, Alat peralatan pendukung perkantoran dan kebersihan
-            bangunan. Sejak resmi didirikan pada tahun 2019, telah melayani
-            beberapa kantor instansi Pemerintahan, BUMN, BUMD dan Perusahaan
-            Swasta yang ada di Banjarmasin dan Sekitarnya.
-          </p>
+          <h3 class="title"><b></b><span>tentang kami</span><b></b></h3>
+          <div class="d-grid-2">
+            <div class="video">
+              <video
+                src="./src/video/Produk – Mimikri Indonesia Lestari_2.mp4"
+                controls
+              ></video>
+            </div>
+            <p>
+              <strong>CV. MIMIKRI INDONESIA LESTARI </strong>Adalah perusahaan
+              yang bergerak dibidang jasa dan penjualan alat peralatan System
+              Keamanan, Alat peralatan pendukung perkantoran dan kebersihan
+              bangunan. Sejak resmi didirikan pada tahun 2019, telah melayani
+              beberapa kantor instansi Pemerintahan, BUMN, BUMD dan Perusahaan
+              Swasta yang ada di Banjarmasin dan Sekitarnya.
+            </p>
+          </div>
         </section>
         <section id="produk">
-          <h3 class="title">
-            Beberapa Jenis Produk dan Layanan kami sediakan:
-          </h3>
+          <h3 class="title"><b></b><span>produk</span><b></b></h3>
+          <h4>Beberapa Jenis Produk dan Layanan kami sediakan:</h4>
           <div class="d-grid-4">
             <div class="card">
               <div class="card-body">Palang Pintu Otomatis</div>
@@ -205,7 +212,7 @@
           </div>
         </section>
         <section id="costomer-exp">
-          <h3 class="title">costumer experience</h3>
+          <h3 class="title"><b></b><span>costomer experience</span><b></b></h3>
           <div class="d-grid-4">
             <div class="card">
               <div class="card-img">
@@ -259,12 +266,12 @@
           </div>
         </section>
         <section id="kontak-kami" class="bg-black">
-          <h3 class="title">kontak kami</h3>
+          <h3 class="title"><b></b><span>kontak kami</span><b></b></h3>
           <div class="d-grid-2">
             <div class="logo">
-              <img src="./src/img/logo.jpeg" alt="" />
+              <img src="./src/img/logo copy.png" alt="" />
             </div>
-            <div class="contak">
+            <div class="kontak">
               <p>
                 Handphone:
                 <a
@@ -316,5 +323,22 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      let nav = document.querySelector(".nav").scrollHeight + 50;
+      console.log(nav);
+      function myFunction() {
+        if (
+          document.body.scrollTop > nav ||
+          document.documentElement.scrollTop > nav
+        ) {
+          document.querySelector(".nav").classList.add("fixed");
+        } else {
+          document.querySelector(".nav").classList.remove("fixed");
+        }
+      }
+    </script>
   </body>
 </html>
