@@ -1,4 +1,8 @@
 /* logo  */
+body {
+  background-image: url("./src/img/bg.jpg");
+  color: #793315;
+}
 .logo {
   width: 100%;
   z-index: 190;
@@ -108,8 +112,18 @@ section .d-grid-2 {
 .footer {
   background-color: black;
   width: 100vw;
+  position: relative;
 }
-
+.footer .copy {
+  /* text-align: center; */
+  position: absolute;
+  bottom: 3px;
+  left: 0px;
+  right: 0px;
+}
+.copy p {
+  text-align: center;
+}
 .aside {
   position: fixed;
   display: none;
