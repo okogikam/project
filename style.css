@@ -5,17 +5,12 @@ body {
 }
 .logo {
   width: 100%;
-  z-index: 190;
+  /* z-index: 190; */
   display: block;
   /* display: flex; */
   /* height: 80px; */
 }
-.card a,
-.card a:active,
-.card a:visited {
-  text-decoration: none;
-  color: white;
-}
+
 .logo img {
   max-width: 80px;
 }
@@ -49,7 +44,7 @@ section {
 }
 .full {
   width: 100vw;
-  background-color: black;
+  background-color: rgb(44, 43, 43);
 }
 .d-grid-4 {
   display: grid;
@@ -110,7 +105,7 @@ section .d-grid-2 {
   background-color: rgba(199, 103, 14, 0.678);
 }
 .footer {
-  background-color: black;
+  background-color: rgba(100, 98, 98, 0.836);
   width: 100vw;
   position: relative;
 }
@@ -163,8 +158,8 @@ section .d-grid-2 {
 }
 .btn-close {
   position: inherit;
-  right: 0px;
-  top: 0px;
+  right: 10px;
+  top: 10px;
   background-color: white;
 }
 .eael-creative-button {
@@ -180,19 +175,37 @@ section .d-grid-2 {
   text-align: center;
 }
 /* card  */
+.pesan {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  font-size: 24px;
+}
 #produk .card {
   background-color: chocolate;
   color: white;
   transition: 0.75s ease-in-out;
+  overflow: hidden;
+}
+#produk .card a {
+  width: 100%;
+  height: 100%;
 }
 #produk .card:hover,
 #produk .card:focus {
   transform: scale(1.1, 1.1);
   border: 1px solid chocolate;
-  background-color: white;
+}
+.card a,
+#produk .card a:active,
+#produk .card a:visited {
+  text-decoration: none;
+  color: white;
 }
 #produk .card a:hover,
 #produk .card a:focus {
+  background-color: white;
   color: chocolate;
 }
 #costomer-exp .card {
@@ -203,9 +216,13 @@ section .d-grid-2 {
   align-items: center;
 }
 #kontak {
-  background-color: black;
+  background-color: rgb(44, 43, 43);
   color: white;
   padding: 20px;
+}
+.bg-black {
+  background-color: rgb(44, 43, 43) !important;
+  color: white;
 }
 #kontak .d-grid-2 {
   grid-template-columns: 1fr 1fr;
